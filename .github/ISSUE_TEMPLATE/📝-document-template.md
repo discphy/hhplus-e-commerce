@@ -1,7 +1,7 @@
 ---
 name: "📝 DOCUMENT TEMPLATE"
 about: 문서 이슈 템플릿
-title: "[DOCUMENT] 이슈제목 }"
+title: "📝 이슈제목"
 labels: "📝Document"
 assignees: ''
 
