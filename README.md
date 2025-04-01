@@ -1,13 +1,13 @@
-## 프로젝트
+# 항해플러스 이커머스 🛒
 
-## Getting Started
+## 📕 E-커머스 서비스 설계 문서 
 
-### Prerequisites
+### [1️⃣ 요구사항 분석 문서](docs/architecture/01.Requirements.md)
 
-#### Running Docker Containers
+### [2️⃣ 마일스톤 문서](docs/architecture/02.Milestones.md)
 
-`local` profile 로 실행하기 위하여 인프라가 설정되어 있는 Docker 컨테이너를 실행해주셔야 합니다.
+### [3️⃣ 시퀀스 다이어그램 문서](docs/architecture/03.SequenceDiagram.md)
 
-```bash
-docker-compose up -d
-```
+### [4️⃣ ERD 문서](docs/architecture/04.ERD.md)
+
+### [5️⃣ API 명세](docs/architecture/05.ApiDocument.md)
