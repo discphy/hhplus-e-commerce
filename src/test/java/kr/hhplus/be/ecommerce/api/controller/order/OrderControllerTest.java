@@ -134,4 +134,28 @@ class OrderControllerTest extends ControllerTestSupport {
             .andExpect(jsonPath("$.code").value(400))
             .andExpect(jsonPath("$.message").value("상품 구매 수량은 양수여야 합니다."));
     }
+
+    @DisplayName("주문/결제를 한다.")
+    @Test
+    void createOrder() throws Exception {
+        // given
+        OrderCreateRequest request = OrderCreateRequest.of(
+            1L,
+            1L,
+            List.of(
+                OrderProductRequest.of(1L, 2)
+            )
+        );
+
+        // when & then
+        mockMvc.perform(
+                post("/api/v1/orders")
+                    .content(objectMapper.writeValueAsString(request))
+                    .contentType(MediaType.APPLICATION_JSON)
+            )
+            .andDo(print())
+            .andExpect(status().isOk())
+            .andExpect(jsonPath("$.code").value(200))
+            .andExpect(jsonPath("$.message").value("OK"));
+    }
 }
