@@ -5,7 +5,6 @@
 + [✅ 프로젝트 이슈 칸반](https://github.com/users/discphy/projects/2/views/1)
 + [⏰ 프로젝트 타임라인](https://github.com/users/discphy/projects/2/views/2)
 
-
 ### 📕 E-커머스 서비스 설계 문서 
 
 + [1️⃣ 요구사항 분석 문서](docs/architecture/01.Requirements.md)
