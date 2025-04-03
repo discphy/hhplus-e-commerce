@@ -12,7 +12,9 @@
 
 + [2️⃣ 마일스톤 문서](docs/architecture/02.Milestones.md)
 
-+ [3️⃣ 시퀀스 다이어그램 문서](docs/architecture/03.SequenceDiagram.md)
++ [3️⃣ 다이어그램 문서]()
+    + [시퀀스 다이어그램 문서](docs/architecture/03-1.SequenceDiagram)
+    + [상태 다이어그램 문서](docs/architecture/03-2.StateDiagram.md)
 
 + [4️⃣ ERD 문서](docs/architecture/04.ERD.md)
 
